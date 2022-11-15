@@ -1,0 +1,143 @@
+.wrapper{
+  margin-top: 15px;
+  border-bottom: 1px solid #000;
+}
+nav {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.header-menu-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header-menu-list a {
+  color: #000;
+  text-decoration: none;
+}
+
+.header-menu-list li:first-child{
+  font-size: 20px;
+  line-height: 20px;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+.blog-box__item{
+  border: 1px solid #000;
+  width: 250px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.blog-box__item img{
+  max-width: 100%;
+}
+.blog-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+} 
+
+.blog-wrapper-text {
+  margin: 10px;
+}
+
+.blog-info{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+.blog-info__author p {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.blog-wrapper-text{
+  position: relative;
+  bottom: 0;
+}
+.blog-text a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.blog-text__subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.blog__line {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  height: 1px;
+  margin-bottom: 10px;
+}
+
+
+.blog__views span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+.blog-box-bottom{
+  display: flex;
+  justify-content: space-between;
+}
+.blog-bottom__action {
+  cursor: pointer;
+  padding-left: 5px;
+  font-size: 25px;
+}
+.create-blog-wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.create-blog-form{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.create-blog__title {
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+textarea{
+  height: 100px;
+  border-radius: 5px;
+}
+.btn{
+  display: block;
+  width: 117px;
+  padding: 10px;
+  text-align: center;
+  height: 35px;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 15px;
+  box-shadow: 0 4px 2px rgba(0, 0, 0, .6);
+}
+.btn:hover {
+  background-color: rgba(0, 0, 0, .9);
+  color: #fff;
+}
+
+.btn:active{
+  position: relative;
+  top: 0;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .6);
+}
+
